@@ -9,7 +9,7 @@
  */
 import java.util.Random;
 import java.util.Scanner;
-public class Game_41342 {
+public class DigitGuessGame {
 	public static void main(String[] args){
 		int win = 0;
 		int lose = 0;
@@ -37,7 +37,7 @@ public class Game_41342 {
 		for (int i = 0; i < 3; i++){
 			int userInput = in.nextInt();
 			if (userInput == secretNum){
-				System.out.println("Congratulation, correct! Let’s start a new game  with a new secret number.");
+				System.out.println("Congratulation, correct! Letâ€™s start a new game  with a new secret number.");
 				return 1;
 			}
 			if (userInput == 0){
