@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import java.util.Scanner;
 
-public class Ellipse_41342 {
+public class ellipseCalculation {
 	public static void main(String[] args){
 		double majorRadius,minorRadius;
 		double focus;
